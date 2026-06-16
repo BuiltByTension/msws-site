@@ -303,7 +303,7 @@ h1, h2, h3 { font-family: 'Oswald', sans-serif; font-weight: 600; letter-spacing
 .work { background: var(--black); border-bottom: 1px solid var(--line); }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 .gallery-item {
@@ -363,6 +363,7 @@ h1, h2, h3 { font-family: 'Oswald', sans-serif; font-weight: 600; letter-spacing
   gap: 3rem;
   align-items: center;
 }
+.heritage-photos { display: flex; flex-direction: column; gap: 1rem; }
 .heritage-photo {
   border-radius: 6px; overflow: hidden;
   border: 1px solid var(--line-2);
